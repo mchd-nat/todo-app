@@ -95,7 +95,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [mchd-nat](https://mchd-nat.github.io/)
+- Website - [https://mchd-nat.github.io/](https://mchd-nat.github.io/)
 - Frontend Mentor - [@mchd-nat](https://www.frontendmentor.io/profile/mchd-nat)
 
 <!-- ## Acknowledgments
