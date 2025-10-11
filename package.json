@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mchd-nat.github.io/todo-app/",
+  "homepage": "/todo-app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
