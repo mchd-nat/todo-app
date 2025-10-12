@@ -1,0 +1,25 @@
+div.new_task {
+  width: 550px;
+  background-color: var(--light_background);
+  border-radius: 5px;
+  margin: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 100%;
+  height: fit-content;
+  border: none;
+  background-color: transparent;
+  margin-left: 20px;
+}
+
+input[type="checkbox"] {
+  margin: 5px;
+}

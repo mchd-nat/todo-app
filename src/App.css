@@ -1,11 +1,48 @@
 #root {
-  margin: 0;
+  --light_background: #fafafaff;
+}
+
+* {
   padding: 0;
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 18px;
+}
+
+body {
+  background-color: var(--light_background);
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
 }
 
 #background_image {
   position: fixed;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: -1;
+}
+
+.task_manager {
+  width: 550px;
+  margin: auto;
+}
+
+header.task_header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: var(--light_background);
 }
