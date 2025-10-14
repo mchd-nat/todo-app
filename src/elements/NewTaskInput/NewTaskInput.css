@@ -1,9 +1,9 @@
 div.new_task {
   width: 550px;
-  background-color: var(--light_background);
+  background-color: var(--gray_50);
   border-radius: 5px;
   margin: 0;
-  height: 60px;
+  height: 70px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,6 +20,14 @@ input[type="text"] {
   margin-left: 20px;
 }
 
+input[type="text"]:focus {
+  outline: none;
+}
+
 input[type="checkbox"] {
   margin: 5px;
+}
+
+input[type="checkbox"]:hover {
+  cursor: pointer;
 }

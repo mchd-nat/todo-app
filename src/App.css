@@ -1,5 +1,9 @@
 #root {
-  --light_background: #fafafaff;
+  --gray_50: #fafafaff;
+  --purple_300: #cacde8ff;
+  --gray_300: #d2d3dbff;
+  --gray_600: #9394a5ff;
+  --navy_850: #484b6aff;
 }
 
 * {
@@ -7,10 +11,11 @@
   margin: 0;
   font-family: "Josefin Sans", sans-serif;
   font-size: 18px;
+  color: var(--navy_850);
 }
 
 body {
-  background-color: var(--light_background);
+  background-color: var(--purple_300);
 }
 
 #root {
@@ -38,11 +43,11 @@ header.task_header {
   flex-direction: row;
   justify-content: space-between;
   margin-top: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 
 h1 {
   font-size: 40px;
-  letter-spacing: 10px;
-  color: var(--light_background);
+  letter-spacing: 15px;
+  color: var(--gray_50);
 }
