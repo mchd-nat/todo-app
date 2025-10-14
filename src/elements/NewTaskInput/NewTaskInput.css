@@ -1,6 +1,6 @@
 div.new_task {
   width: 495px;
-  background-color: var(--gray_50);
+  background-color: var(--white);
   border-radius: 5px;
   margin: 0;
   height: 60px;

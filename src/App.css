@@ -1,4 +1,5 @@
 #root {
+  --white: #ffffff;
   --gray_50: #fafafaff;
   --purple_300: #cacde8ff;
   --gray_300: #d2d3dbff;
@@ -14,8 +15,12 @@
   color: var(--navy_850);
 }
 
-body {
-  background-color: var(--purple_300);
+.background {
+  background-color: var(--gray_50);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
 }
 
 #root {
@@ -49,5 +54,5 @@ header.task_header {
 h1 {
   font-size: 35px;
   letter-spacing: 15px;
-  color: var(--gray_50);
+  color: var(--white);
 }
