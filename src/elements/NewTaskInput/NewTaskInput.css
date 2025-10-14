@@ -1,9 +1,9 @@
 div.new_task {
-  width: 550px;
+  width: 495px;
   background-color: var(--gray_50);
   border-radius: 5px;
   margin: 0;
-  height: 70px;
+  height: 60px;
   display: flex;
   flex-direction: row;
   justify-content: center;

@@ -32,7 +32,7 @@ body {
 }
 
 .task_manager {
-  width: 550px;
+  width: 495px;
   margin: auto;
 }
 
@@ -42,12 +42,12 @@ header.task_header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-top: 80px;
-  margin-bottom: 40px;
+  margin-top: 65px;
+  margin-bottom: 35px;
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 35px;
   letter-spacing: 15px;
   color: var(--gray_50);
 }
